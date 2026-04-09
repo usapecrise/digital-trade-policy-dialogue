@@ -11,3 +11,18 @@
 
 <!-- Custom Theme JavaScript -->
 <script src="{{ "../css/2016_style/js/agency.js" | prepend: site.baseurl }}"></script>
+
+<!-- Smooth Scroll Fix -->
+<script>
+$(document).ready(function() {
+  $('a.page-scroll').on('click', function(event) {
+      var target = $(this.getAttribute('href'));
+      if (target.length) {
+          event.preventDefault();
+          $('html, body').stop().animate({
+              scrollTop: target.offset().top - 70
+          }, 1200);
+      }
+  });
+});
+</script>
