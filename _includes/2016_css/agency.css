@@ -973,6 +973,31 @@ body {
     transform: translateY(-1px);
 }
 
+/* ===== GLOBAL BUTTON UPGRADE ===== */
 
+.btn-xl, .btn-sm, .btn-primary {
+    background-color: #2b6cb0;   /* modern blue */
+    border-color: #2b6cb0;
+    border-radius: 8px;
+    padding: 14px 32px;
+    font-weight: 600;
+    text-transform: none;        /* removes all caps (more modern) */
+    letter-spacing: 0.3px;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: all 0.2s ease;
+}
+
+/* Hover */
+.btn-xl:hover, .btn-sm:hover, .btn-primary:hover {
+    background-color: #1f4f85;
+    border-color: #1f4f85;
+    transform: translateY(-1px);
+}
+
+/* Optional: slightly tighter small buttons */
+.btn-sm {
+    padding: 10px 20px;
+}
 
 
