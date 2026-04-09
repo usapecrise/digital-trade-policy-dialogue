@@ -921,3 +921,60 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
+
+/* ===== INTRO POLISH ===== */
+
+.event-block {
+    text-align: center;
+}
+
+.event-block i {
+    font-size: 20px;
+    color: #355f7c;
+    margin-bottom: 6px;
+}
+
+.event-label {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #9aa6b2;
+    margin-bottom: 4px;
+}
+
+.event-value {
+    font-weight: 600;
+    font-size: 16px;
+    color: #0f2f3f;
+}
+
+.intro-text {
+    max-width: 700px;
+    margin: 0 auto 25px;
+}
+
+.intro-list {
+    max-width: 500px;
+    margin: 0 auto 35px;
+    text-align: left;
+    line-height: 1.8;
+}
+
+/* BUTTON UPGRADE */
+.register-btn {
+    background-color: #2ea44f;
+    border-color: #2ea44f;
+    border-radius: 6px;
+    padding: 14px 32px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.register-btn:hover {
+    background-color: #279645;
+    border-color: #279645;
+    transform: translateY(-1px);
+}
+
+
+
+
