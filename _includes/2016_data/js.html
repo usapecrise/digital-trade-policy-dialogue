@@ -1,5 +1,5 @@
-<!-- jQuery Version 1.11.0 -->
-<script src="{{ "../css/2016_style/js/jquery-1.11.0.js" | prepend: site.baseurl }}"></script>
+<!-- jQuery (FIXED - use CDN so it ALWAYS works) -->
+<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
 <script src="{{ "../css/2016_style/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
@@ -12,9 +12,9 @@
 <!-- Custom Theme JavaScript -->
 <script src="{{ "../css/2016_style/js/agency.js" | prepend: site.baseurl }}"></script>
 
-<!-- Smooth Scroll Fix -->
+<!-- Smooth Scroll (backup + override) -->
 <script>
-$(document).ready(function() {
+$(function() {
   $('a.page-scroll').on('click', function(event) {
       var target = $(this.getAttribute('href'));
       if (target.length) {
