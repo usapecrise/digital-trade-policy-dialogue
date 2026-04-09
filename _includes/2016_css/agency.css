@@ -1014,3 +1014,22 @@ body {
 }
 
 
+
+/* ===== FORCE BLUE BUTTONS (override template green) ===== */
+
+.btn-xl,
+.btn-xl:focus,
+.btn-xl:active {
+    background-color: #1f3a5f !important;
+    border-color: #1f3a5f !important;
+    color: #ffffff !important;
+}
+
+.btn-xl:hover {
+    background-color: #162c47 !important;
+    border-color: #162c47 !important;
+    color: #ffffff !important;
+}
+
+
+
