@@ -976,8 +976,8 @@ body {
 /* ===== GLOBAL BUTTON UPGRADE ===== */
 
 .btn-xl, .btn-sm, .btn-primary {
-    background-color: #2b6cb0;   /* modern blue */
-    border-color: #2b6cb0;
+    background-color: #3b5f7a;
+	border-color: #3b5f7a;
     border-radius: 8px;
     padding: 14px 32px;
     font-weight: 600;
@@ -990,7 +990,7 @@ body {
 
 /* Hover */
 .btn-xl:hover, .btn-sm:hover, .btn-primary:hover {
-    background-color: #1f4f85;
+    background-color: #2e4c63
     border-color: #1f4f85;
     transform: translateY(-1px);
 }
