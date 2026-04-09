@@ -338,14 +338,12 @@ header {
     height: 100vh;
     text-align: center;
     color: #fff;
-    background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/css/2016_style/img/digital-trade.jpg');
+    background:
+        linear-gradient(rgba(0, 40, 60, 0.55), rgba(0, 40, 60, 0.55)),
+        url('{{ site.baseurl }}/css/2016_style/img/digital-trade.jpg');
     background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
+    background-repeat: no-repeat;
     background-size: cover;
-    -o-background-size: cover;
 }
 
 header .intro-text {
