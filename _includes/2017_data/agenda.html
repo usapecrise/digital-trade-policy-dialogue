@@ -1,49 +1,29 @@
----
-layout: 2017_default
-permalink: /agenda
-title: Agenda
-published: true
----
-    <!--background color-->
-    <script type="text/javascript">
-        document.write ('<body style="background: Gainsboro; background-attachment: fixed;">')
-    </script>
+<section id="agenda" style="padding:50px 0; background:#f9fbfd;">
+    <div class="container">
 
-    <div class="event black-frame">
-      <h1>{{ page.title }}</h1>
+        <h2 class="section-heading text-center" style="margin-bottom:30px;">
+            Agenda
+        </h2>
 
-        <h2>Day 1</h2>
-        <table class="agenda">
-            <thead>
-                <tr>
-                    <th class="row-1 agenda-time"><center>Time</center></th>
-                    <th class="row-2 agenda-activity"><center>Activity</center></th>  
-                </tr>
-            </thead>
+        <div style="max-width:700px; margin:0 auto;">
 
-            {% for agenda in site.data.twenty_17.agendas_1 %}
-                <tr>
-                    <td>{{ agenda.time }}</td>
-                    <td>{{ agenda.info }}</td>
-                </tr> 
-            {% endfor %}
-        </table>
+            <div style="margin-bottom:15px;">
+                <strong>12:00 PM</strong> — Opening Remarks
+            </div>
 
-        <h2>Day 2</h2>
-        <table class="agenda">
-            <thead>
-                <tr>
-                    <th class="row-1 agenda-time"><center>Time</center></th>
-                    <th class="row-2 agenda-activity"><center>Activity</center></th>  
-                </tr>
+            <div style="margin-bottom:15px;">
+                <strong>12:15 PM</strong> — AI and Digital Trade Policy Panel
+            </div>
 
-            </thead>
+            <div style="margin-bottom:15px;">
+                <strong>1:00 PM</strong> — Cross-Border Data Flows Discussion
+            </div>
 
-            {% for agenda in site.data.twenty_17.agendas_2 %}
-                <tr>
-                    <td>{{ agenda.time }}</td>
-                    <td>{{ agenda.info }}</td>
-                </tr> 
-            {% endfor %}
-        </table>
+            <div>
+                <strong>1:45 PM</strong> — Closing and Networking
+            </div>
+
+        </div>
+
     </div>
+</section>
