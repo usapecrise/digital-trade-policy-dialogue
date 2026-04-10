@@ -1293,4 +1293,13 @@ body {
   color: #9aa7b5;
 }
 
+#contact a {
+  color: #355f7c;              /* your primary blue */
+  text-decoration: none;
+  font-weight: 500;
+}
 
+#contact a:hover {
+  color: #2c4f68;
+  text-decoration: underline;
+}
