@@ -1303,3 +1303,14 @@ body {
   color: #2c4f68;
   text-decoration: underline;
 }
+
+section#contact {
+  background: linear-gradient(
+    180deg,
+    #f8fafc 0%,
+    #eef3f7 100%
+  );
+}
+
+
+
