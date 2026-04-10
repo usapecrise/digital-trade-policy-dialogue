@@ -1118,24 +1118,21 @@ body {
 }
 
 .agenda-card.break {
-  background: #f8f5f1;              /* very light warm tint */
-  border: 1px solid #eadfce;        /* soft warm border */
-  padding: 12px 18px;
+  background: #f8f5f1;            
+  border: 1px solid #eadfce;       
   display: flex;
-  align-items: center;
-  justify-content: center;
   gap: 10px;
 }
 
 /* icon */
 .agenda-card.break i {
-  color: #c7a17a;                   /* your light brown */
+  color: #c7a17a;                 
   font-size: 16px;
 }
 
 /* text */
 .agenda-card.break .agenda-title {
-  color: #7a5c3e;                   /* slightly deeper brown */
+  color: #7a5c3e;             
   font-weight: 600;
 }
 
