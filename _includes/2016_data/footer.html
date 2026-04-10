@@ -11,25 +11,42 @@ footer {
   right: 0;
   bottom: 0;
   left: 0;
+  padding: 20px 0;
+  background: #f8fafc;
+}
+
+/* NEW */
+.footer-text {
+  font-size: 14px;
+  color: #6b7c8f;
+  text-align: center;
+  margin: 0;
+}
+
+.footer-text .divider {
+  margin: 0 8px;
+  color: #9aa7b5;
 }
 </style>
 
 <footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <span class="copyright">
-  © {{ 'now' | date: "%Y" }} US APEC-RISE Program<br>
-  All Rights Reserved.
-</span>
-            </div>
-            <div class="col-md-4">
-                <ul class="list-inline social-buttons">
-                    {% for network in site.social %}
-                        <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a></li>
-                    {% endfor %}
-                </ul>
-            </div>
-        </div>
-    </div>
+  <div class="container text-center">
+    
+    <p class="footer-text">
+      © {{ 'now' | date: "%Y" }} US APEC-RISE Program 
+      <span class="divider">·</span> 
+      All rights reserved.
+    </p>
+
+    <ul class="list-inline social-buttons" style="margin-top:10px;">
+      {% for network in site.social %}
+        <li>
+          <a href="{{ network.url }}">
+            <i class="fa fa-{{ network.title }}"></i>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+
+  </div>
 </footer>
