@@ -1455,3 +1455,28 @@ section#contact {
   letter-spacing: 0.2px;
 }
 
+.about-block {
+  max-width: 720px;
+  margin: 0 auto 30px;
+}
+
+.about-item {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about-label {
+  font-size: 11px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: #8aa0b5;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.about-item p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #2c3e50;
+}
