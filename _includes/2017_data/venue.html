@@ -5,29 +5,45 @@ title: Venue
 published: true
 ---
 
-<section style="padding:80px 0; background:#f5f7fb;">
+<!-- HERO -->
+<section style="
+  height: 300px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+">
+
+  <!-- overlay -->
+  <div style="
+    position:absolute;
+    inset:0;
+    background: rgba(20,30,40,0.6);
+  "></div>
+
+  <!-- text -->
+  <div style="position:relative; z-index:2; text-align:center; color:#fff;">
+    <h1 style="margin:0;">Venue</h1>
+    <p style="margin-top:10px;">April 22, 2026 • Mexico City, Mexico</p>
+  </div>
+</section>
+
+
+<!-- CONTENT -->
+<section style="background:#f5f7fb; padding:60px 0;">
   <div class="container">
 
-    <!-- TITLE -->
-    <div class="text-center" style="margin-bottom:40px;">
-      <h1 style="margin-bottom:10px;">Venue</h1>
-      <p style="color:#6b7c8f;">
-        April 22, 2026 • Mexico City, Mexico
-      </p>
-    </div>
-
-    <!-- CARD -->
+    <!-- FLOATING CARD -->
     <div style="
       background:#ffffff;
       border-radius:16px;
       padding:30px;
-      box-shadow:0 12px 30px rgba(0,0,0,0.06);
+      margin-top:-120px; /* pulls it up over hero */
+      box-shadow:0 20px 50px rgba(0,0,0,0.15);
     ">
 
       <h3 style="margin-top:0;">Universidad de las Américas Puebla (UDLAP)</h3>
-      <p style="color:#6b7c8f;">
-        Mexico City Campus
-      </p>
+      <p style="color:#6b7c8f;">Mexico City Campus</p>
 
       <p>
         The 2026 Digital Trade Policy Dialogue will be held in person at the 
@@ -48,13 +64,21 @@ published: true
         </iframe>
       </div>
 
+      <!-- BUTTON -->
+      <a href="https://www.google.com/maps?q=Universidad+de+las+Américas+Puebla+Mexico+City+Campus" 
+         target="_blank" 
+         class="btn btn-sm btn-primary"
+         style="margin-top:15px;">
+        Open in Google Maps →
+      </a>
+
       <hr style="margin:25px 0;">
 
       <!-- ADDRESS -->
       <p><strong>Address</strong></p>
       <p style="color:#6b7c8f;">
-        Universidad de las Américas Puebla (UDLAP)  
-        Mexico City Campus  
+        Universidad de las Américas Puebla (UDLAP)<br>
+        Mexico City Campus<br>
         Mexico City, Mexico
       </p>
 
