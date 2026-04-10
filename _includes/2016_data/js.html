@@ -26,3 +26,26 @@ $(function() {
   });
 });
 </script>
+
+<script>
+$(function() {
+
+  // SHOW / HIDE BUTTON
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 300) {
+      $('.back-to-top').addClass('show');
+    } else {
+      $('.back-to-top').removeClass('show');
+    }
+  });
+
+  // SMOOTH SCROLL TO TOP
+  $('.back-to-top').on('click', function(event) {
+    event.preventDefault();
+    $('html, body').animate({
+      scrollTop: 0
+    }, 800);
+  });
+
+});
+</script>
