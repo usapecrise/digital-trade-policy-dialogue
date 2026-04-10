@@ -1370,3 +1370,24 @@ section#contact {
   border: 1px solid #d6e1ec;
 }
 
+.audience-row {
+  text-align: center;
+  margin: 10px 0 20px;
+  color: #6b7c8f;
+  font-size: 14px;
+}
+
+.audience-row span:first-child {
+  margin-right: 6px;
+  font-weight: 500;
+}
+
+.audience-pill {
+  background: transparent;
+  border: 1px dashed #c7d4e2;
+  padding: 6px 10px;
+  border-radius: 999px;
+  margin: 0 4px;
+  font-size: 13px;
+  color: #355f7c;
+}
