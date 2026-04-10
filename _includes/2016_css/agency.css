@@ -1164,6 +1164,56 @@ body {
   font-weight: 600;
 }
 
+/* ICON ALIGNMENT */
+.agenda-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.agenda-title i {
+  font-size: 14px;
+}
+
+/* REGISTRATION */
+.agenda-card.registration {
+  background: #f4f7fa;
+}
+.agenda-card.registration i {
+  color: #6f8fa8;
+}
+
+/* WELCOME */
+.agenda-card.welcome {
+  background: #f6f9fc;
+}
+.agenda-card.welcome i {
+  color: #355f7c;
+}
+
+
+/* CLOSING */
+.agenda-card.closing {
+  background: #f7faf5;
+}
+.agenda-card.closing i {
+  color: #7a8f6b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ===== FIX NAV ACTIVE COLOR ===== */
 
 .navbar-default .navbar-nav > .active > a,
