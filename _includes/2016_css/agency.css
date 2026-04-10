@@ -1504,6 +1504,7 @@ section#contact {
 .agenda-card.registration {
   background: #f1f5f9;
   border: 1px solid #dbe5ef;
+  border-left-color: #6f8fa8;
 }
 
 /* ===== WELCOME + CLOSING (slightly different tone) ===== */
@@ -1511,11 +1512,13 @@ section#contact {
 .agenda-card.closing {
   background: #f1f5f9;
   border: 1px solid #d6e1ec;
+  border-left-color: #6f8fa8;
 }
 
 /* ===== BREAK (keep your warm tone but refine) ===== */
 .agenda-card.break {
   background: #fdf8f2;
   border: 1px solid #f0e2d0;
+  border-left-color: #c7a17a;
 }
 
