@@ -1502,14 +1502,14 @@ section#contact {
 
 /* ===== REGISTRATION (soft blue-gray) ===== */
 .agenda-card.registration {
-  background: #f4f7fa;
+  background: #f1f5f9;
   border: 1px solid #dbe5ef;
 }
 
 /* ===== WELCOME + CLOSING (slightly different tone) ===== */
 .agenda-card.welcome,
 .agenda-card.closing {
-  background: #f6f9fc;
+  background: #f1f5f9;
   border: 1px solid #d6e1ec;
 }
 
