@@ -1299,5 +1299,35 @@ section#contact {
   );
 }
 
+/* BACK TO TOP BUTTON */
+.back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  width: 45px;
+  height: 45px;
+  background: #355f7c;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 45px;
+  font-size: 18px;
+  text-decoration: none;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
 
+/* SHOW BUTTON */
+.back-to-top.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* HOVER */
+.back-to-top:hover {
+  background: #2c4f68;
+  transform: translateY(-3px);
+}
 
