@@ -1125,7 +1125,6 @@ body {
 /* BREAK */
 .agenda-card.break {
   background: #f7f4ef;
-  border-left: 3px solid #d6b28a;
 }
 
 .agenda-card.break i {
