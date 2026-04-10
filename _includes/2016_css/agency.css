@@ -1262,6 +1262,15 @@ body {
   transform: translateY(-2px);
 }
 
+.footer-text {
+  font-size: 14px;
+  color: #6b7c8f;
+  margin: 0;
+}
 
+.footer-text .divider {
+  margin: 0 8px;
+  color: #9aa7b5;
+}
 
 
