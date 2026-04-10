@@ -1352,3 +1352,21 @@ section#contact {
   transform: translateY(-3px);
 }
 
+.tag-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 25px 0 35px;
+}
+
+.tag-pill {
+  background: #eef3f7;
+  color: #355f7c;
+  padding: 8px 14px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 600;
+  border: 1px solid #d6e1ec;
+}
+
