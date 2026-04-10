@@ -719,7 +719,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('{{ site.baseurl }}/css/2016_style/img/digital-trade.jpg');
+    background-image: url('{{ site.baseurl }}/css/2016_style/img/contactus.jpg');
     background-position: center;
     background-repeat: no-repeat;
 }
