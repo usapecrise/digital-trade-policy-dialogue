@@ -1146,3 +1146,49 @@ body {
 .navbar-default .navbar-nav > .active > a {
     border-bottom: 2px solid #1f3a5f;
 }
+
+/* ROW — no more full-width bootstrap columns */
+.info-row {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+/* CARD — tinted + auto width */
+.info-card {
+  background: #f3f6f9;              /* subtle tint instead of white */
+  border-radius: 10px;
+  padding: 14px 18px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: none;                /* remove heavy shadow */
+  border: 1px solid #e2e8f0;
+
+  width: auto;                     /* 🔥 key fix */
+  min-width: 220px;                /* keeps them balanced */
+}
+
+/* ICON */
+.info-card i {
+  font-size: 16px;
+  color: #355f7c;
+}
+
+/* TEXT */
+.info-label {
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: #8aa0b5;
+}
+
+.info-value {
+  font-size: 15px;
+  font-weight: 600;
+  color: #1f3a5f;
+}
+
+
+
