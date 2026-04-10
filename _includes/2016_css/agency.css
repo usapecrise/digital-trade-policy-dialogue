@@ -1218,3 +1218,50 @@ body {
   line-height: 1;
 }
 
+/* ===== MODERN BUTTON OVERRIDE ===== */
+
+.btn-xl {
+  padding: 12px 22px !important;
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  border-radius: 999px !important;
+  text-transform: none !important;
+  letter-spacing: 0.2px;
+}
+
+/* PRIMARY BUTTON */
+.btn-primary,
+.btn-xl {
+  background: #355f7c !important;
+  border: none !important;
+  box-shadow: 0 6px 18px rgba(53,95,124,0.25);
+}
+
+/* SECONDARY BUTTON (for View Details) */
+.btn-secondary {
+  background: rgba(255,255,255,0.9);
+  color: #355f7c;
+  border: 1px solid rgba(53,95,124,0.2);
+  border-radius: 999px;
+  padding: 12px 22px;
+  font-weight: 600;
+  backdrop-filter: blur(6px);
+}
+
+/* HOVER EFFECT */
+.btn-xl:hover,
+.btn-primary:hover {
+  background: #2c4f68 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* SECONDARY HOVER */
+.btn-secondary:hover {
+  background: #ffffff;
+  transform: translateY(-2px);
+}
+
+
+
+
