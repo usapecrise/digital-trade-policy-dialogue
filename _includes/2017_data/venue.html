@@ -4,23 +4,61 @@ permalink: /venue
 title: Venue
 published: true
 ---
-    <!--background color-->
-    <script type="text/javascript">
-        document.write ('<body style="background: Gainsboro; background-attachment: fixed;">')
-    </script>
 
-    <div class="event black-frame">
-      <h1>{{ page.title }}</h1>
+<section style="padding:80px 0; background:#f5f7fb;">
+  <div class="container">
 
-      <p>Date<br>Venue</p>
-
-    <div class="venue-map">
-      <iframe src="https://www.google.com/maps/embed/v1/place?key=YOUR_API_KEY&q=Space+Needle,Seattle+WA" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <!-- TITLE -->
+    <div class="text-center" style="margin-bottom:40px;">
+      <h1 style="margin-bottom:10px;">Venue</h1>
+      <p style="color:#6b7c8f;">
+        April 22, 2026 • Mexico City, Mexico
+      </p>
     </div>
 
-      <p>Info</p>
+    <!-- CARD -->
+    <div style="
+      background:#ffffff;
+      border-radius:16px;
+      padding:30px;
+      box-shadow:0 12px 30px rgba(0,0,0,0.06);
+    ">
 
-      <p>Address</p>
+      <h3 style="margin-top:0;">Universidad de las Américas Puebla (UDLAP)</h3>
+      <p style="color:#6b7c8f;">
+        Mexico City Campus
+      </p>
 
-      <p>Location</p>
+      <p>
+        The 2026 Digital Trade Policy Dialogue will be held in person at the 
+        Universidad de las Américas Puebla (UDLAP), Mexico City Campus.
+      </p>
+
+      <hr style="margin:25px 0;">
+
+      <!-- MAP -->
+      <div style="border-radius:12px; overflow:hidden;">
+        <iframe 
+          src="https://www.google.com/maps?q=UDLAP+Mexico+City&output=embed"
+          width="100%" 
+          height="350" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy">
+        </iframe>
+      </div>
+
+      <hr style="margin:25px 0;">
+
+      <!-- ADDRESS -->
+      <p><strong>Address</strong></p>
+      <p style="color:#6b7c8f;">
+        Universidad de las Américas Puebla (UDLAP)  
+        Mexico City Campus  
+        Mexico City, Mexico
+      </p>
+
     </div>
+
+  </div>
+</section>
