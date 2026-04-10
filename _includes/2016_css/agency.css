@@ -720,19 +720,10 @@ aside.clients img {
 section#contact {
     position: relative;
     padding: 100px 0;
-
-    background-color: #222;
-    background-image: url('{{ site.baseurl }}/css/2016_style/img/contactus.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; /* 🔥 THIS WAS MISSING */
-}
-
-section#contact::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(20, 30, 40, 0.65); /* adjust darkness */
+	background: linear-gradient(
+    180deg,
+    #f5f7fb 0%,
+    #eef3f7 100%);
 }
 
 /* keep content above overlay */
@@ -740,8 +731,6 @@ section#contact .container {
     position: relative;
     z-index: 2;
 }
-
-
 
 
 section#contact .section-heading {
