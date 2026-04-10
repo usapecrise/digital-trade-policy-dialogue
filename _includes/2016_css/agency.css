@@ -286,16 +286,14 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
-    outline: 0;
-    color: #{{ site.data.template.color.primary }};
+    color: #7fa4bf;
+    background-color: transparent;
 }
 
 .navbar-default .navbar-nav>.active>a {
-    border-radius: 0;
-    color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
+    background-color: transparent;
+    color: #7fa4bf;
 }
-
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
