@@ -1124,14 +1124,17 @@ body {
 
 /* BREAK */
 .agenda-card.break {
-  background: #f7f4ef;
+  background: #f6f8fb;
+  border: 1px dashed #d6e1ec;
+  padding: 12px 18px;	
+  justify-content: center;
+  text-align: center;
 }
 
 .agenda-card.break i {
-  color: #c7a17a;
-  font-size: 18px;
+  color: #9aa6b2;
+  font-size: 16px;
 }
-
 /* ===== FIX NAV ACTIVE COLOR ===== */
 
 .navbar-default .navbar-nav > .active > a,
@@ -1157,17 +1160,17 @@ body {
 
 /* CARD — tinted + auto width */
 .info-card {
-  background: #f3f6f9;              /* subtle tint instead of white */
+  background: #f3f6f9;            
   border-radius: 10px;
   padding: 14px 18px;
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  box-shadow: none;                /* remove heavy shadow */
+  box-shadow: none;               
   border: 1px solid #e2e8f0;
 
-  width: auto;                     /* 🔥 key fix */
-  min-width: 220px;                /* keeps them balanced */
+  width: auto;              
+  min-width: 220px;             
 }
 
 /* ICON */
