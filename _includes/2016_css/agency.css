@@ -1122,19 +1122,28 @@ body {
   text-transform: uppercase;
 }
 
-/* BREAK */
 .agenda-card.break {
-  background: #f6f8fb;
-  border: 1px dashed #d6e1ec;
-  padding: 12px 18px;	
+  background: #f8f5f1;              /* very light warm tint */
+  border: 1px solid #eadfce;        /* soft warm border */
+  padding: 12px 18px;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  text-align: center;
+  gap: 10px;
 }
 
+/* icon */
 .agenda-card.break i {
-  color: #9aa6b2;
+  color: #c7a17a;                   /* your light brown */
   font-size: 16px;
 }
+
+/* text */
+.agenda-card.break .agenda-title {
+  color: #7a5c3e;                   /* slightly deeper brown */
+  font-weight: 600;
+}
+
 /* ===== FIX NAV ACTIVE COLOR ===== */
 
 .navbar-default .navbar-nav > .active > a,
