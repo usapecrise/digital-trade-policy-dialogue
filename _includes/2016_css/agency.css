@@ -600,10 +600,6 @@ section#contact .container {
 }
 
 
-section#contact .section-heading {
-    color: #fff;
-}
-
 section#contact .form-group {
     margin-bottom: 25px;
 }
@@ -1369,10 +1365,6 @@ section#contact {
   }
 }
 
-#contact .section-heading {
-  color: #355f7c !important;
-  opacity: 1 !important;
-}
 
 /* ===== CLEAN BUTTON SYSTEM ===== */
 
