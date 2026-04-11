@@ -1416,5 +1416,9 @@ section#contact {
   transform: translateY(-2px);
 }
 
-
+.btn-primary,
+.btn-secondary,
+.btn-xl {
+  line-height: 1.2 !important;
+}
 
