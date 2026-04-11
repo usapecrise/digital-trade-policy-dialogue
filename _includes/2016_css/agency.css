@@ -1307,22 +1307,33 @@ body {
   letter-spacing: 0.2px;
 }
 
+.btn-primary,
+.btn-secondary {
+  padding: 12px 22px !important;
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  border-radius: 999px !important;
+  text-transform: none !important;
+  letter-spacing: 0.2px;
+  display: inline-block;
+}
+
 /* PRIMARY BUTTON */
 .btn-primary,
 .btn-xl {
   background: #355f7c !important;
+  color: #ffffff !important;
   border: none !important;
   box-shadow: 0 6px 18px rgba(53,95,124,0.25);
 }
 
+
 /* SECONDARY BUTTON (for View Details) */
 .btn-secondary {
   background: rgba(255,255,255,0.9);
-  color: #355f7c;
+  color: #355f7c !important;
   border: 1px solid rgba(53,95,124,0.2);
-  border-radius: 999px;
-  padding: 12px 22px;
-  font-weight: 600;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
   backdrop-filter: blur(6px);
 }
 
@@ -1339,6 +1350,8 @@ body {
   background: #ffffff;
   transform: translateY(-2px);
 }
+
+
 
 .footer-text {
   font-size: 14px;
