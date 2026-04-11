@@ -1132,11 +1132,6 @@ body {
   font-weight: 500;
 }
 
-#contact a:hover {
-  color: #2c4f68;
-  text-decoration: underline;
-}
-
 section#contact {
   background: linear-gradient(
     180deg,
