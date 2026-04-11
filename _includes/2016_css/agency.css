@@ -109,137 +109,6 @@ aside.clients,
     background-color: #222;
 }
 
-.btn-primary {
-    border-color: #{{ site.data.template.color.primary }};
-    text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
-    font-weight: 700;
-    color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
-}
-
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active,
-.btn-primary.active,
-.open .dropdown-toggle.btn-primary {
-    border-color: #{{ site.data.template.color.primary }};
-    color: #fff;
-    background-color: #{{ site.data.template.color.secondary }};
-}
-
-.btn-primary:active,
-.btn-primary.active,
-.open .dropdown-toggle.btn-primary {
-    background-image: none;
-}
-
-.btn-primary.disabled,
-.btn-primary[disabled],
-fieldset[disabled] .btn-primary,
-.btn-primary.disabled:hover,
-.btn-primary[disabled]:hover,
-fieldset[disabled] .btn-primary:hover,
-.btn-primary.disabled:focus,
-.btn-primary[disabled]:focus,
-fieldset[disabled] .btn-primary:focus,
-.btn-primary.disabled:active,
-.btn-primary[disabled]:active,
-fieldset[disabled] .btn-primary:active,
-.btn-primary.disabled.active,
-.btn-primary[disabled].active,
-fieldset[disabled] .btn-primary.active {
-    border-color: #{{ site.data.template.color.primary }};
-    background-color: #{{ site.data.template.color.primary }};
-}
-
-.btn-primary .badge {
-    color: #{{ site.data.template.color.primary }};
-    background-color: #fff;
-}
-
-.btn-xl {
-    padding: 20px 40px;
-    font-size: 18px;
-    font-weight: 700;
-}
-
-.btn-sm {
-    padding: 10px 20px;
-    font-size: 14px;
-    font-weight: 700;
-}
-
-.btn-sm, .btn-xl {
-    color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
-    border-color: #{{ site.data.template.color.primary }};
-    border-radius: 3px;
-    text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
-}
-
-.btn-sm:hover,
-.btn-sm:focus,
-.btn-sm:active,
-.btn-sm.active,
-.btn-xl:hover,
-.btn-xl:focus,
-.btn-xl:active,
-.btn-xl.active,
-.open .dropdown-toggle.btn-xl {
-    border-color: #{{ site.data.template.color.primary }};
-    color: #fff;
-    background-color: #{{ site.data.template.color.secondary }};
-}
-
-.btn-sm:active,
-.btn-sm.active,
-.open .dropdown-toggle.btn-sm,
-.btn-xl:active,
-.btn-xl.active,
-.open .dropdown-toggle.btn-xl {
-    background-image: none;
-}
-.btn-sm.disabled,
-.btn-sm[disabled],
-fieldset[disabled] .btn-sm,
-.btn-sm.disabled:hover,
-.btn-sm[disabled]:hover,
-fieldset[disabled] .btn-sm:hover,
-.btn-sm.disabled:focus,
-.btn-sm[disabled]:focus,
-fieldset[disabled] .btn-sm:focus,
-.btn-sm.disabled:active,
-.btn-sm[disabled]:active,
-fieldset[disabled] .btn-sm:active,
-.btn-sm.disabled.active,
-.btn-sm[disabled].active,
-fieldset[disabled] .btn-sm.active,
-.btn-xl.disabled,
-.btn-xl[disabled],
-fieldset[disabled] .btn-xl,
-.btn-xl.disabled:hover,
-.btn-xl[disabled]:hover,
-fieldset[disabled] .btn-xl:hover,
-.btn-xl.disabled:focus,
-.btn-xl[disabled]:focus,
-fieldset[disabled] .btn-xl:focus,
-.btn-xl.disabled:active,
-.btn-xl[disabled]:active,
-fieldset[disabled] .btn-xl:active,
-.btn-xl.disabled.active,
-.btn-xl[disabled].active,
-fieldset[disabled] .btn-xl.active {
-    border-color: #{{ site.data.template.color.primary }};
-    background-color: #{{ site.data.template.color.primary }};
-}
-
-.btn-sm .badge,
-.btn-xl .badge {
-    color: #{{ site.data.template.color.primary }};
-    background-color: #fff;
-}
 
 .navbar-default {
     border-color: transparent;
@@ -990,66 +859,6 @@ body {
     transform: translateY(-1px);
 }
 
-/* ===== GLOBAL BUTTON UPGRADE ===== */
-
-.btn-xl, .btn-sm, .btn-primary {
-    background-color: #3b5f7a;
-	border-color: #3b5f7a;
-    border-radius: 8px;
-    padding: 14px 32px;
-    font-weight: 600;
-    text-transform: none;        /* removes all caps (more modern) */
-    letter-spacing: 0.3px;
-
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-    transition: all 0.2s ease;
-}
-
-/* Hover */
-.btn-xl:hover, .btn-sm:hover, .btn-primary:hover {
-    background-color: #2e4c63
-    border-color: #1f4f85;
-    transform: translateY(-1px);
-}
-
-/* Optional: slightly tighter small buttons */
-.btn-sm {
-    padding: 10px 20px;
-}
-
-
-
-/* ===== FORCE BLUE BUTTONS (override template green) ===== */
-
-.btn-xl,
-.btn-xl:focus,
-.btn-xl:active {
-    background-color: #1f3a5f !important;
-    border-color: #1f3a5f !important;
-    color: #ffffff !important;
-}
-
-.btn-xl:hover {
-    background-color: #162c47 !important;
-    border-color: #162c47 !important;
-    color: #ffffff !important;
-}
-
-.btn-secondary,
-.btn-secondary:focus,
-.btn-secondary:active {
-  color: #355f7c !important;
-}
-
-.btn-secondary:hover,
-.btn-secondary:focus,
-.btn-secondary:active {
-  background: #ffffff !important;
-  color: #355f7c !important;
-}
-
-
-
 
 
 
@@ -1305,50 +1114,6 @@ body {
   border-radius: 999px !important;
   text-transform: none !important;
   letter-spacing: 0.2px;
-}
-
-.btn-primary,
-.btn-secondary {
-  padding: 12px 22px !important;
-  font-size: 15px !important;
-  font-weight: 600 !important;
-  border-radius: 999px !important;
-  text-transform: none !important;
-  letter-spacing: 0.2px;
-  display: inline-block;
-}
-
-/* PRIMARY BUTTON */
-.btn-primary,
-.btn-xl {
-  background: #355f7c !important;
-  color: #ffffff !important;
-  border: none !important;
-  box-shadow: 0 6px 18px rgba(53,95,124,0.25);
-}
-
-
-/* SECONDARY BUTTON (for View Details) */
-.btn-secondary {
-  background: rgba(255,255,255,0.9);
-  color: #355f7c !important;
-  border: 1px solid rgba(53,95,124,0.2);
-  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
-  backdrop-filter: blur(6px);
-}
-
-/* HOVER EFFECT */
-.btn-xl:hover,
-.btn-primary:hover {
-  background: #2c4f68 !important;
-  transform: translateY(-2px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
-}
-
-/* SECONDARY HOVER */
-.btn-secondary:hover {
-  background: #ffffff;
-  transform: translateY(-2px);
 }
 
 
@@ -1608,3 +1373,56 @@ section#contact {
   color: #355f7c !important;
   opacity: 1 !important;
 }
+
+/* ===== CLEAN BUTTON SYSTEM ===== */
+
+/* Base (applies to ALL buttons) */
+.btn,
+.btn-primary,
+.btn-secondary,
+.btn-xl,
+.btn-sm {
+  padding: 12px 22px !important;
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  border-radius: 999px !important;
+  text-transform: none !important;
+  letter-spacing: 0.2px;
+  display: inline-block;
+  transition: all 0.2s ease;
+}
+
+/* PRIMARY */
+.btn-primary,
+.btn-xl {
+  background: #355f7c !important;
+  color: #ffffff !important;
+  border: none !important;
+  box-shadow: 0 6px 18px rgba(53,95,124,0.25);
+}
+
+/* PRIMARY HOVER */
+.btn-primary:hover,
+.btn-xl:hover {
+  background: #2c4f68 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* SECONDARY */
+.btn-secondary {
+  background: rgba(255,255,255,0.9);
+  color: #355f7c !important;
+  border: 1px solid rgba(53,95,124,0.2);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  backdrop-filter: blur(6px);
+}
+
+/* SECONDARY HOVER */
+.btn-secondary:hover {
+  background: #ffffff;
+  transform: translateY(-2px);
+}
+
+
+
