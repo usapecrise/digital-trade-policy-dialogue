@@ -49,3 +49,19 @@ $(function() {
 
 });
 </script>
+
+<script>
+$(window).scroll(function() {
+  var trigger = $('#intro').height();   // height of your hero section
+
+  if ($(this).scrollTop() > trigger - 80) {
+    $('.navbar-default').addClass('navbar-shrink');
+  } else {
+    $('.navbar-default').removeClass('navbar-shrink');
+  }
+});
+</script>
+
+
+
+
