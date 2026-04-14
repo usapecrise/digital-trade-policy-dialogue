@@ -4,6 +4,9 @@
     <!-- TITLE -->
     <div class="text-center">
       <h2 class="section-heading">Speakers</h2>
+      <p style="margin-top:10px; color:#6b7c8c;">
+        Distinguished leaders from government, industry, and academia shaping the future of digital trade and AI.
+      </p>
     </div>
 
     <!-- LIST -->
@@ -12,22 +15,16 @@
 
       <div class="speaker-row" onclick="this.classList.toggle('active')">
 
-        <!-- LEFT: INITIALS -->
-        <div class="speaker-avatar">
-          {{ post.title | split: ' ' | map: 'first' | join: '' | slice: 0,2 }}
-        </div>
-
-        <!-- RIGHT: CONTENT -->
+        <!-- TEXT ONLY -->
         <div class="speaker-info">
           <h4>{{ post.title }}</h4>
-          <p class="speaker-role">{{ post.subtitle }}</p>
 
-          <!-- PREVIEW -->
-          <p class="speaker-preview">
-            {{ post.bio | truncate: 180 }}
+          <!-- ONE-LINER -->
+          <p class="speaker-oneliner">
+            {{ post.oneliner }}
           </p>
 
-          <!-- FULL -->
+          <!-- FULL BIO -->
           <div class="speaker-full">
             <p>{{ post.bio }}</p>
           </div>
