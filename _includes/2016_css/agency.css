@@ -893,8 +893,8 @@ body {
 
 /* REGISTRATION */
 .agenda-card.registration {
-  background: #eaf1f7;  /* darker than before */
-  border: 1px solid #d6e0ea;
+  background: #e6eff7;   /* stronger blue tint */
+  border: 1px solid #cdddea;
 }
 .agenda-card.registration i {
   color: #355f7c;
@@ -902,8 +902,8 @@ body {
 
 /* WELCOME */
 .agenda-card.welcome {
-  background: #edf4fa;  /* darker */
-  border: 1px solid #d6e0ea;
+  background: #eaf3fb;   /* slightly different but still distinct */
+  border: 1px solid #d2e2f0;
 }
 .agenda-card.welcome i {
   color: #355f7c;
@@ -911,13 +911,12 @@ body {
 
 /* CLOSING */
 .agenda-card.closing {
-  background: #eef5ea;  /* slightly greener but still subtle */
-  border: 1px solid #dce6d8;
+  background: #edf5ec;   /* soft green but visible */
+  border: 1px solid #d6e6d3;
 }
 .agenda-card.closing i {
   color: #355f7c;
 }
-
 
 
 
