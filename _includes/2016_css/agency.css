@@ -1676,3 +1676,15 @@ section#contact {
   cursor: pointer;
 }
 
+@media (max-width: 768px) {
+  .speaker-row {
+    grid-template-columns: 1fr;
+  }
+
+  .speaker-left {
+    margin-bottom: 8px;
+  }
+}
+
+
+
