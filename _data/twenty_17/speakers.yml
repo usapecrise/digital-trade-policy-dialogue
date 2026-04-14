@@ -1,26 +1,24 @@
-- title: Name
-  name: Name-1
-  subtitle: Position
-  img: TBD.jpg
-  thumbnail: TBD.jpg
-  alt: Picture of TBD
-  topic: Topic
-  description: More Info
+- title: Dr. Ted Chang
+  oneliner: Leads global AI and cloud innovation with 285+ patents and decades of collaboration with MIT.
+  bio: >
+    Dr. Ted Chang is Chief Technology Officer, Vice President, and General Manager of Quanta Computer. He leads Quanta’s technology strategy, guiding AI, IoT, and cloud platforms across industries including healthcare and agriculture. An inventor with more than 285 patents, he has collaborated with MIT CSAIL for over two decades and received multiple global awards for innovation and design.
 
-- title: Name
-  name: Name-2
-  subtitle: Position
-  img: TBD.jpg
-  thumbnail: TBD.jpg
-  alt: Picture of TBD
-  topic: Topic
-  description: More Info
+- title: Kok Ping Soon
+  oneliner: CEO of Singapore Business Federation, representing 32,000+ companies and former GovTech leader.
+  bio: >
+    Kok Ping Soon is Chief Executive Officer of the Singapore Business Federation (SBF), representing more than 32,000 companies. Previously, he served as CEO of GovTech, leading Singapore’s Smart Nation initiative and public sector digital transformation.
 
-- title: Name
-  name: Name-3
-  subtitle: Position
-  img: TBD.jpg
-  thumbnail: TBD.jpg
-  alt: Picture of TBD
-  topic: Topic
-  description: More Info
+- title: Peter Lovelock
+  oneliner: Advisor to governments and global firms on digital trade, AI, and infrastructure for over 30 years.
+  bio: >
+    Peter Lovelock is Chief Consulting & Innovation Officer at Access Partnership. With more than 30 years of experience, he has advised governments and global firms on digital trade, AI, and infrastructure, contributing to major initiatives across ASEAN, APEC, and beyond.
+
+- title: Juan Carlos Pardo
+  oneliner: Public affairs and ESG leader specializing in regulatory strategy and stakeholder engagement in Mexico.
+  bio: >
+    Juan Carlos Pardo is a senior executive in public affairs, corporate strategy, and sustainability with over 25 years of experience. He has led stakeholder engagement and regulatory strategy across complex environments and currently serves as Country Manager of Dapper Mexico.
+
+- title: Calista Redmond
+  oneliner: Leads global AI partnerships at NVIDIA, advancing sovereign AI and national AI ecosystems.
+  bio: >
+    Calista Redmond is Vice President of Global AI Initiatives at NVIDIA, where she leads strategic collaborations to advance sovereign AI and help nations build resilient, locally driven AI ecosystems.
