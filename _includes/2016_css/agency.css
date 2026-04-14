@@ -1565,3 +1565,58 @@ section#contact {
   opacity: 0.6;
 }
 
+.speaker-list {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.speaker-row {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 20px 24px;
+  box-shadow: 0 8px 22px rgba(0,0,0,0.05);
+  transition: all 0.25s ease;
+}
+
+.speaker-row:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 30px rgba(0,0,0,0.08);
+}
+
+.speaker-info h4 {
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.speaker-oneliner {
+  font-size: 15px;
+  color: #2f4a5f;
+  margin-bottom: 8px;
+}
+
+/* 🔥 SMOOTH ACCORDION */
+.speaker-full {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease;
+  font-size: 14px;
+  color: #2f4a5f;
+  line-height: 1.6;
+}
+
+.speaker-row.active .speaker-full {
+  max-height: 500px;
+  margin-top: 10px;
+}
+
+.speaker-toggle {
+  font-size: 14px;
+  color: #355f7c;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 6px;
+}
+
+
