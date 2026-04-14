@@ -63,30 +63,24 @@ $(window).scroll(function() {
 </script>
 
 <script>
-$(function() {
+$(document).on('click', '.speaker-toggle', function(e) {
+  e.stopPropagation();
 
-  $('.speaker-toggle').on('click', function(e) {
-    e.stopPropagation();
+  var $currentRow = $(this).closest('.speaker-row');
 
-    var $currentRow = $(this).closest('.speaker-row');
+  // Close all others
+  $('.speaker-row').not($currentRow).removeClass('active');
+  $('.speaker-row').not($currentRow).find('.speaker-toggle').text('View full bio →');
 
-    // Close all others
-    $('.speaker-row').not($currentRow).removeClass('active');
-    $('.speaker-row').not($currentRow).find('.speaker-toggle').text('View full bio →');
+  // Toggle current
+  $currentRow.toggleClass('active');
 
-    // Toggle current
-    $currentRow.toggleClass('active');
-
-    // Update button text
-    if ($currentRow.hasClass('active')) {
-      $(this).text('Hide bio ↑');
-    } else {
-      $(this).text('View full bio →');
-    }
-
-  });
-
+  // Update button text
+  if ($currentRow.hasClass('active')) {
+    $(this).text('Hide bio ↑');
+  } else {
+    $(this).text('View full bio →');
+  }
 });
 </script>
-
 
