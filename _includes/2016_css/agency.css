@@ -893,7 +893,8 @@ body {
 
 /* REGISTRATION */
 .agenda-card.registration {
-  background: #f4f7fa;
+  background: #eaf1f7;  /* darker than before */
+  border: 1px solid #d6e0ea;
 }
 .agenda-card.registration i {
   color: #355f7c;
@@ -901,21 +902,21 @@ body {
 
 /* WELCOME */
 .agenda-card.welcome {
-  background: #f6f9fc;
+  background: #edf4fa;  /* darker */
+  border: 1px solid #d6e0ea;
 }
 .agenda-card.welcome i {
   color: #355f7c;
 }
 
-
 /* CLOSING */
 .agenda-card.closing {
-  background: #f7faf5;
+  background: #eef5ea;  /* slightly greener but still subtle */
+  border: 1px solid #dce6d8;
 }
 .agenda-card.closing i {
   color: #355f7c;
 }
-
 
 
 
