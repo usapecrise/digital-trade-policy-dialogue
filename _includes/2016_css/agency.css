@@ -891,32 +891,7 @@ body {
   font-size: 14px;
 }
 
-/* REGISTRATION */
-.agenda-card.registration {
-  background: #e6eff7;   /* stronger blue tint */
-  border: 1px solid #cdddea;
-}
-.agenda-card.registration i {
-  color: #355f7c;
-}
 
-/* WELCOME */
-.agenda-card.welcome {
-  background: #eaf3fb;   /* slightly different but still distinct */
-  border: 1px solid #d2e2f0;
-}
-.agenda-card.welcome i {
-  color: #355f7c;
-}
-
-/* CLOSING */
-.agenda-card.closing {
-  background: #edf5ec;   /* soft green but visible */
-  border: 1px solid #d6e6d3;
-}
-.agenda-card.closing i {
-  color: #355f7c;
-}
 
 
 
@@ -1168,11 +1143,22 @@ section#contact {
   background: #ffffff;
 }
 
-/* ===== REGISTRATION (soft blue-gray) ===== */
+
+
+.agenda-card.welcome,
+.agenda-card.closing {
+  background: #f7f9fb;              /* lighter than registration */
+  border: 1px solid #e3ebf3;
+  border-left: 3px solid #a8bfd4;   /* softer + thinner */
+}
+
+/* REGISTRATION */
 .agenda-card.registration {
-  background: #f4f8fc;           
-  border: 1px solid #dbe5ef;
-  border-left: 4px solid #355f7c;  
+  background: #e6eff7;   /* stronger blue tint */
+  border: 1px solid #cdddea;
+}
+.agenda-card.registration i {
+  color: #355f7c;
 }
 
 .agenda-card.welcome,
@@ -1181,6 +1167,21 @@ section#contact {
   border: 1px solid #e3ebf3;
   border-left: 3px solid #a8bfd4;   /* softer + thinner */
 }
+
+.agenda-card.welcome i {
+  color: #355f7c;
+}
+
+
+.agenda-card.closing i {
+  color: #355f7c;
+}
+
+
+
+
+
+
 
 /* ===== BREAK (keep your warm tone but refine) ===== */
 .agenda-card.break {
