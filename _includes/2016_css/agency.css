@@ -1607,8 +1607,12 @@ section#contact {
 }
 
 .speaker-row.active .speaker-full {
-  max-height: 500px;
+  max-height: 1000px;
   margin-top: 10px;
+}
+
+.speaker-full p {
+  margin-bottom: 10px;
 }
 
 .speaker-toggle {
