@@ -1391,3 +1391,14 @@ section#contact {
         color: #355f7c;
     }
 }
+
+/* Push navbar items further right */
+.navbar-collapse {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Fine-tune how far right (adjust this number) */
+.navbar-nav {
+    margin-right: -30px;
+}
