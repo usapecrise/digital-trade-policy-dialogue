@@ -13,7 +13,8 @@
     <div class="speaker-list">
       {% for post in site.data.twenty_17.speakers %}
 
-      <div class="speaker-row" onclick="this.classList.toggle('active')">
+     <div class="speaker-row">
+       
 
         <!-- TEXT ONLY -->
         <div class="speaker-info">
@@ -29,8 +30,14 @@
             <p>{{ post.bio }}</p>
           </div>
 
-          <div class="speaker-toggle">View full bio →</div>
-        </div>
+<div class="speaker-toggle"
+     onclick="
+       const row = this.closest('.speaker-row');
+       row.classList.toggle('active');
+       this.innerText = row.classList.contains('active') ? 'Hide bio ↑' : 'View full bio →';
+     ">
+  View full bio →
+</div>
 
       </div>
 
