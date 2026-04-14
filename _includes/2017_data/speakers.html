@@ -1,30 +1,42 @@
-<section id="speakers" style="background:#f5f7fb;">
+<section id="speakers" style="background:#f5f7fb; padding:80px 0;">
   <div class="container">
 
+    <!-- TITLE -->
     <div class="text-center">
       <h2 class="section-heading">Speakers</h2>
+      <p style="margin-top:10px; color:#6b7c8c;">
+        Distinguished leaders from government, industry, and academia shaping the future of digital trade and AI.
+      </p>
     </div>
 
+    <!-- GRID -->
     <div class="speaker-grid">
       {% for post in site.data.twenty_17.speakers %}
-      
+
       <div class="speaker-card" onclick="this.classList.toggle('active')">
-        
-        <img src="../css/2017_style/img/speaker/{{ post.thumbnail }}" alt="">
-        
+
+        <!-- INITIALS AVATAR -->
+        <div class="speaker-avatar">
+          {{ post.title | split: ' ' | map: 'first' | join: '' | slice: 0,2 }}
+        </div>
+
+        <!-- CONTENT -->
         <div class="speaker-content">
           <h4>{{ post.title }}</h4>
           <p class="speaker-role">{{ post.subtitle }}</p>
 
+          <!-- SHORT PREVIEW -->
           <p class="speaker-preview">
             {{ post.bio | truncate: 140 }}
           </p>
 
+          <!-- FULL BIO -->
           <div class="speaker-full">
             <p>{{ post.bio }}</p>
           </div>
 
-          <div class="speaker-toggle">Read more</div>
+          <!-- TOGGLE -->
+          <div class="speaker-toggle">View full bio →</div>
         </div>
 
       </div>
