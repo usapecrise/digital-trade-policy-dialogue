@@ -1623,5 +1623,56 @@ section#contact {
   cursor: pointer;
   margin-top: 6px;
 }
+.speaker-row {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 24px;
 
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 22px 26px;
+  margin-bottom: 18px;
+
+  border-left: 4px solid #355f7c;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.05);
+}
+
+/* LEFT SIDE */
+.speaker-left h4 {
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  color: #0b2f44;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+/* RIGHT SIDE */
+.speaker-oneliner {
+  font-size: 15px;
+  color: #2f4a5f;
+  margin-bottom: 10px;
+}
+
+/* BIO */
+.speaker-full {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease;
+  font-size: 14px;
+  color: #2f4a5f;
+}
+
+.speaker-row.active .speaker-full {
+  max-height: 1000px;
+  margin-top: 10px;
+}
+
+/* BUTTON */
+.speaker-toggle {
+  font-size: 14px;
+  color: #355f7c;
+  font-weight: 600;
+  cursor: pointer;
+}
 
