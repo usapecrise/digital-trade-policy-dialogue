@@ -9,33 +9,32 @@
       </p>
     </div>
 
-    <!-- GRID -->
-    <div class="speaker-grid">
+    <!-- LIST -->
+    <div class="speaker-list">
       {% for post in site.data.twenty_17.speakers %}
 
-      <div class="speaker-card" onclick="this.classList.toggle('active')">
+      <div class="speaker-row" onclick="this.classList.toggle('active')">
 
-        <!-- INITIALS AVATAR -->
+        <!-- LEFT: INITIALS -->
         <div class="speaker-avatar">
           {{ post.title | split: ' ' | map: 'first' | join: '' | slice: 0,2 }}
         </div>
 
-        <!-- CONTENT -->
-        <div class="speaker-content">
+        <!-- RIGHT: CONTENT -->
+        <div class="speaker-info">
           <h4>{{ post.title }}</h4>
           <p class="speaker-role">{{ post.subtitle }}</p>
 
-          <!-- SHORT PREVIEW -->
+          <!-- PREVIEW -->
           <p class="speaker-preview">
-            {{ post.bio | truncate: 140 }}
+            {{ post.bio | truncate: 180 }}
           </p>
 
-          <!-- FULL BIO -->
+          <!-- FULL -->
           <div class="speaker-full">
             <p>{{ post.bio }}</p>
           </div>
 
-          <!-- TOGGLE -->
           <div class="speaker-toggle">View full bio →</div>
         </div>
 
