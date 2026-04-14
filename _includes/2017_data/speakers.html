@@ -13,31 +13,21 @@
     <div class="speaker-list">
       {% for post in site.data.twenty_17.speakers %}
 
-     <div class="speaker-row">
-       
+      <div class="speaker-row">
 
-        <!-- TEXT ONLY -->
         <div class="speaker-info">
           <h4>{{ post.title }}</h4>
 
-          <!-- ONE-LINER -->
           <p class="speaker-oneliner">
             {{ post.oneliner }}
           </p>
 
-          <!-- FULL BIO -->
           <div class="speaker-full">
             <p>{{ post.bio }}</p>
           </div>
 
-<div class="speaker-toggle"
-     onclick="
-       const row = this.closest('.speaker-row');
-       row.classList.toggle('active');
-       this.innerText = row.classList.contains('active') ? 'Hide bio ↑' : 'View full bio →';
-     ">
-  View full bio →
-</div>
+          <div class="speaker-toggle">View full bio →</div>
+        </div>
 
       </div>
 
