@@ -123,7 +123,9 @@ header {
 
 header .intro-text {
     padding-top: 18vh;
-    padding-bottom: 20px;
+    header .intro-text {
+    padding-top: 160px !important;
+}
 }
 
    header .intro-text .intro-lead-in {
@@ -1392,13 +1394,11 @@ section#contact {
     }
 }
 
-/* Push navbar items further right */
 .navbar-collapse {
-    display: flex;
-    justify-content: flex-end;
+    display: flex !important;
+    justify-content: flex-end !important;
 }
 
-/* Fine-tune how far right (adjust this number) */
 .navbar-nav {
-    margin-right: -30px;
+    margin-right: -40px !important;
 }
