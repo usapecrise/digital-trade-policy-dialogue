@@ -4,34 +4,31 @@
     <!-- TITLE -->
     <div class="text-center">
       <h2 class="section-heading">Speakers</h2>
-      <p style="margin-top:10px; color:#6b7c8c;">
-        Distinguished leaders from government, industry, and academia shaping the future of digital trade and AI.
-      </p>
     </div>
 
     <!-- LIST -->
     <div class="speaker-list">
-      {% for post in site.data.twenty_17.speakers %}
+{% for post in site.data.twenty_17.speakers %}
 
-      <div class="speaker-row">
+<div class="speaker-row">
 
-        <div class="speaker-info">
-          <h4>{{ post.title }}</h4>
+  <div class="speaker-info">
+    <h4>{{ post.title }}</h4>
 
-          <p class="speaker-oneliner">
-            {{ post.oneliner }}
-          </p>
+    <p class="speaker-oneliner">
+      {{ post.oneliner }}
+    </p>
 
-          <div class="speaker-full">
-            <p>{{ post.bio }}</p>
-          </div>
+    <div class="speaker-full">
+      <p>{{ post.bio }}</p>
+    </div>
 
-          <div class="speaker-toggle">View full bio →</div>
-        </div>
+    <div class="speaker-toggle">View full bio →</div>
+  </div>
 
-      </div>
+</div>
 
-      {% endfor %}
+{% endfor %}
     </div>
 
   </div>
