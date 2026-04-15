@@ -17,7 +17,7 @@ $(function() {
 
     const navHeight = navbar.offsetHeight;
 
-    const targetPosition = target.offsetTop - navHeight - 40;
+    const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - navHeight - 40;
 
     window.scrollTo({
       top: targetPosition,
