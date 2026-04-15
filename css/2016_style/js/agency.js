@@ -4,27 +4,6 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-// jQuery for page scrolling feature - requires jQuery Easing plugin
-$(function() {
-  $('a.page-scroll').on('click', function(e) {
-    const target = document.querySelector(this.getAttribute('href'));
-    if (!target) return;
-
-    e.preventDefault();
-
-    const navbar = document.querySelector('.navbar-default');
-    navbar.classList.add('navbar-shrink');
-
-    const navHeight = navbar.offsetHeight;
-
-    const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - navHeight - 40;
-
-    window.scrollTo({
-      top: targetPosition,
-      behavior: 'smooth'
-    });
-  });
-});
 
 // Highlight the top nav as scrolling occurs
 $('body').scrollspy({
