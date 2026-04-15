@@ -1431,6 +1431,12 @@ section#contact {
     text-align: center;
 }
 
-
+.speaker-photo {
+  width: 90px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 
