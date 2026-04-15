@@ -19,8 +19,11 @@ $(function() {
       var target = $(this.getAttribute('href'));
       if (target.length) {
           event.preventDefault();
+
+          var navHeight = $('.navbar-default').outerHeight();
+
           $('html, body').stop().animate({
-              scrollTop: target.offset().top - 70
+              scrollTop: target.offset().top - navHeight - 10
           }, 1200);
       }
   });
