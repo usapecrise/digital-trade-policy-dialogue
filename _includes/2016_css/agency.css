@@ -1340,13 +1340,13 @@ section#contact {
 /* ROW (2-COLUMN GRID) */
 .speaker-row {
   display: grid;
-  grid-template-columns: 140px 1fr;
+  grid-template-columns: 110px 1fr;
   gap: 24px;
   align-items: start;
 
   background: #ffffff;
   border-radius: 14px;
-  padding: 22px 26px;
+  padding: 26px 28px;
 
   border-left: 4px solid #355f7c;
   box-shadow: 0 10px 24px rgba(0,0,0,0.05);
