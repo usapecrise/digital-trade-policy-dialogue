@@ -12,10 +12,10 @@
 
 <div class="speaker-row">
 
-  <!-- PHOTO -->
-  <div class="speaker-photo">
-    <img src="{{ post.image }}" alt="{{ post.title }}">
-  </div>
+<!-- PHOTO -->
+<div class="speaker-photo">
+  <img class="speaker-img" src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}">
+</div>
 
   <!-- CONTENT -->
   <div class="speaker-content">
