@@ -12,13 +12,15 @@
 
 <div class="speaker-row">
 
-  <!-- LEFT -->
-  <div class="speaker-left">
-    <h4>{{ post.title }}</h4>
+  <!-- PHOTO -->
+  <div class="speaker-photo">
+    <img src="{{ post.image }}" alt="{{ post.title }}">
   </div>
 
-  <!-- RIGHT -->
-  <div class="speaker-right">
+  <!-- CONTENT -->
+  <div class="speaker-content">
+
+    <h4 class="speaker-name">{{ post.title }}</h4>
 
     <p class="speaker-oneliner">
       {{ post.oneliner }}
@@ -33,7 +35,6 @@
   </div>
 
 </div>
-
 {% endfor %}
     </div>
 
