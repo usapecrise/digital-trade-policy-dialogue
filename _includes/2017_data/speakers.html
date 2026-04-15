@@ -12,14 +12,15 @@
 
 <div class="speaker-row">
 
-<!-- PHOTO -->
-<div class="speaker-photo">
-  <img class="speaker-img" src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}">
-</div>
+  <!-- PHOTO -->
+  <div class="speaker-photo">
+    <img class="speaker-img"
+         src="{{ post.image | default: '/css/2016_style/img/default-speaker.jpg' | prepend: site.baseurl }}"
+         alt="{{ post.title }}">
+  </div>
 
   <!-- CONTENT -->
   <div class="speaker-content">
-
     <h4 class="speaker-name">{{ post.title }}</h4>
 
     <p class="speaker-oneliner">
@@ -31,8 +32,9 @@
     </div>
 
     <div class="speaker-toggle">View full bio →</div>
-
   </div>
+
+</div>
 
 </div>
 {% endfor %}
