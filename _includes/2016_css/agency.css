@@ -1340,7 +1340,7 @@ section#contact {
 /* ROW (2-COLUMN GRID) */
 .speaker-row {
   display: grid;
-  grid-template-columns: 220px 1fr;
+  grid-template-columns: 140px 1fr;
   gap: 24px;
   align-items: start;
 
@@ -1360,19 +1360,20 @@ section#contact {
 }
 
 /* LEFT COLUMN */
-.speaker-left h4 {
-  font-size: 15px;
+.speaker-name {
+  font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.6px;
   color: #0b2f44;
-  margin: 0;
+  margin: 0 0 6px 0;
   text-transform: uppercase;
 }
 
 /* RIGHT COLUMN */
 .speaker-oneliner {
-  font-size: 15px;
-  color: #2f4a5f;
+  font-size: 14.5px;
+  font-style: italic;
+  color: #5f7d95;   /* softer, more modern */
   margin-bottom: 10px;
   line-height: 1.5;
 }
@@ -1401,6 +1402,17 @@ section#contact {
   margin-top: 6px;
 }
 
+.speaker-img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #e6edf3;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  margin-bottom: 10px;
+}
+
+
 .speaker-toggle:hover {
   text-decoration: underline;
 }
@@ -1419,14 +1431,6 @@ section#contact {
     text-align: center;
 }
 
-.speaker-img {
-  width: 90px;
-  height: 90px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 2px solid #e6edf3;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
-  margin-bottom: 10px;
-}
+
 
 
