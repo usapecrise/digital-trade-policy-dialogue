@@ -16,8 +16,8 @@
         <!-- PHOTO -->
         <div class="speaker-photo">
           <img class="speaker-img"
-               src="{{ post.image | default: '/css/2016_style/img/default-speaker.jpg' | prepend: site.baseurl }}"
-               alt="{{ post.title }}">
+     src="{% if post.image %}{{ post.image | prepend: site.baseurl }}{% else %}{{ '/css/2016_style/img/default-speaker.jpg' | prepend: site.baseurl }}{% endif %}"
+     alt="{{ post.title }}">
         </div>
 
         <!-- CONTENT -->
