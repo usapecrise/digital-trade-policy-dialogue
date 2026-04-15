@@ -1430,7 +1430,9 @@ section#contact {
   }
 }
 
-
+html {
+  scroll-behavior: smooth;
+}
 	
 
 	
