@@ -6,26 +6,26 @@
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
-    $('a.page-scroll').on('click', function(event) {
-        var target = $(this.getAttribute('href'));
-        if (!target.length) return;
+  $('a.page-scroll').on('click', function(e) {
+    const target = document.querySelector(this.getAttribute('href'));
+    if (!target) return;
 
-        event.preventDefault();
+    e.preventDefault();
 
-        $('.navbar-default').addClass('navbar-shrink');
+    const navbar = document.querySelector('.navbar-default');
+    navbar.classList.add('navbar-shrink');
 
-        setTimeout(function() {
-            var navHeight = $('.navbar-default').outerHeight();
+    const navHeight = navbar.offsetHeight;
 
-            $('html, body').stop().animate({
-                scrollTop: target.offset().top - navHeight - 40
-            }, {
-                duration: 700,
-                easing: 'easeInOutCubic'   // 🔥 smoother than default
-            });
-        }, 50);
+    const targetPosition = target.offsetTop - navHeight - 40;
+
+    window.scrollTo({
+      top: targetPosition,
+      behavior: 'smooth'
     });
+  });
 });
+
 // Highlight the top nav as scrolling occurs
 $('body').scrollspy({
     target: '.navbar-fixed-top'
