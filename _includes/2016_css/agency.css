@@ -1331,22 +1331,21 @@ section#contact {
 
 /* LIST */
 .speaker-list {
-  margin-top: 50px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  max-width: 900px;
+  margin: 50px auto 0;
 }
 
 /* ROW (2-COLUMN GRID) */
 .speaker-row {
   display: grid;
-  grid-template-columns: 110px 1fr;
-  gap: 24px;
-  align-items: start;
+  grid-template-columns: 90px 1fr;  /* tighter image column */
+  gap: 18px;
+  align-items: center;
 
   background: #ffffff;
   border-radius: 14px;
-  padding: 26px 28px;
+  padding: 20px;
 
   border-left: 4px solid #355f7c;
   box-shadow: 0 10px 24px rgba(0,0,0,0.05);
@@ -1423,6 +1422,12 @@ section#contact {
     grid-template-columns: 1fr;
   }
 
+@media (max-width: 768px) {
+  .speaker-list {
+    grid-template-columns: 1fr;   /* back to 1 column */
+  }
+}
+
   .speaker-left {
     margin-bottom: 8px;
     display: flex;
@@ -1443,6 +1448,8 @@ section#contact {
 .img-top {
   object-position: top center;
 }
+
+	
 
 	
 
