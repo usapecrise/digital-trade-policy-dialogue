@@ -1,24 +1,53 @@
 - title: Dr. Ted Chang
-  oneliner: Leads global AI and cloud innovation with 285+ patents and decades of collaboration with MIT.
+  oneliner: Chief Technology Officer, Vice President, and General Manager, Quanta Computer
   bio: >
-    Dr. Ted Chang is Chief Technology Officer, Vice President, and General Manager of Quanta Computer, a Fortune 500 company. He leads Quanta’s technology strategy, guiding the Quanta Research Institute (QRI) and Business Unit 12 (BU12) to pioneer breakthroughs in AI, IoT, and cloud platforms transforming healthcare, medicine, agriculture, and art. He is a guest professor at multiple leading universities and serves on advisory boards including the MIT Jameel Clinic for Machine Learning in Health. An inventor with more than 285 patents, he has received numerous global awards for innovation and design. For two decades, he has led Quanta's collaboration with MIT CSAIL, advancing research from human-centric computing to AI medicine. 
+    Dr. Ted Chang is Chief Technology Officer, Vice President, and General Manager of Quanta Computer, a Fortune 500 company. He leads Quanta’s technology strategy, guiding the Quanta Research Institute (QRI) and Business Unit 12 (BU12) to pioneer breakthroughs in AI, IoT, and cloud platforms that are transforming healthcare, medicine, agriculture, and art. He is a guest professor at Taiwan University, Cheng Kung University, Yang Ming Chiao Tung University and Asia University, serves on advisory boards including the MIT Jameel Clinic for Machine Learning in Health, and is a Board Member of the Epoch Foundation. An inventor with more than 285 patents, including a seminal 2001 patent that anticipated the modern “Application Module Store,” Dr. Chang has earned recognition with the IEEE Communications Society Robert M. Walp Industry Humanitarian Award (2024), the MIT CSAIL Visionary Partner Award (2024), Japan Good Design Best 100 (2022), six Red Dot Awards, and iF Design Award (2021). For two decades, he has led Quanta's collaboration with MIT CSAIL, advancing research from human-centric computing to AI medicine.
+  image: /img/speakers/ted-chang.jpg
 
-- title: Kok Ping Soon
-  oneliner: CEO of Singapore Business Federation, representing 32,000+ companies and former GovTech leader.
+- title: Mr. Akira Fukunaga
+  oneliner: Vice President and Head of Global Government Affairs, Global Public Policy Unit, Fujitsu Limited
   bio: >
-    Mr. Kok Ping Soon is Chief Executive Officer of the Singapore Business Federation (SBF), representing more than 32,000 companies. SBF serves as the apex business chamber championing trade, investment, and industrial relations. Prior to this role, he served as Chief Executive of GovTech, leading Singapore’s Smart Nation initiative and public sector digital transformation. He has held senior roles across multiple government agencies and serves on numerous boards and councils supporting business, governance, and innovation.
+    Biography forthcoming.
+  image: /img/speakers/akira-fukunaga.jpg
 
-- title: Peter Lovelock
-  oneliner: Advisor to governments and global firms on digital trade, AI, and infrastructure for over 30 years.
+- title: Mr. Kok Ping Soon
+  oneliner: Chief Executive Officer, Singapore Business Federation
   bio: >
-    Peter Lovelock is Chief Consulting & Innovation Officer at Access Partnership, where he oversees global consulting and client delivery. With more than 30 years of experience, he has advised leading technology companies and governments on digital economy strategies, digital trade, and AI programs. He has contributed to major initiatives including ASEAN’s Digital Masterplan and APEC’s digital economy frameworks, and has developed widely cited research on data localization and digital trade agreements.
+    Mr. Kok Ping Soon is Chief Executive Officer of the Singapore Business Federation (SBF), the apex business chamber championing the interests of Singapore’s business community in trade, investment and industrial relations matters. SBF represents more than 32,000 companies, as well as key local and foreign business chambers. Prior to his current appointment, Ping Soon was Chief Executive of the Government Technology Agency of Singapore (GovTech), the lead agency driving Singapore’s Smart Nation initiative and public sector digital transformation.
+  image: /img/speakers/kok-ping-soon.jpg
 
-- title: Juan Carlos Pardo
-  oneliner: Public affairs and ESG leader specializing in regulatory strategy and stakeholder engagement in Mexico.
+- title: Dr. Peter Lovelock
+  oneliner: Principal, Fair Tech Institute, Access Partnership
   bio: >
-    Juan Carlos Pardo is a senior executive in public affairs, corporate strategy, and sustainability with over 25 years of experience in Mexico. He specializes in advising leadership in complex regulatory and high-reputation environments. He currently serves as Country Manager of Dapper Mexico. Previously, he spent 20 years at Nestlé Mexico as Director of Corporate Affairs and ESG, and has held leadership roles across business and civil society organizations. He also founded AXS México, a consulting firm focused on strategy and institutional positioning.
+    Dr. Peter Lovelock is the Chief Consulting & Innovation Officer at Access Partnership. He brings more than 30 years’ experience advising governments and global firms on digital economy strategy, digital trade, and AI programs.
+  image: /img/speakers/peter-lovelock.jpg
 
-- title: Calista Redmond
-  oneliner: Leads global AI partnerships at NVIDIA, advancing sovereign AI and national AI ecosystems.
+- title: Mr. Juan Carlos Pardo
+  oneliner: Country Manager México, Dapper
   bio: >
-    Calista Redmond is Vice President of Global AI Initiatives at NVIDIA. She leads strategic collaborations with governments, ecosystem partners, and industry to advance Sovereign AI and national AI programs. Her work focuses on helping countries build digital resilience, strengthen local innovation capacity, and develop AI ecosystems aligned with their economic and cultural priorities.
+    Mr. Juan Carlos Pardo is a senior executive in public affairs, corporate strategy, and sustainability, with over 25 years of experience leading institutional positioning and stakeholder management in Mexico. Since October 2025, he has led Dapper's operations in Mexico as Country Manager.
+  image: /img/speakers/juan-carlos-pardo.jpg
+
+- title: Mr. Bimal Patel
+  oneliner: General Counsel, PayPal
+  bio: >
+    Biography forthcoming.
+  image: /img/speakers/bimal-patel.jpg
+
+- title: Ms. Sissi De la Peña
+  oneliner: Director & Founder, The Dot Network; Mexico Chapter Director, GASA Mexico
+  bio: >
+    Ms. Sissi De la Peña brings over 20 years of experience in government affairs and digital policy, with leadership in AI governance, cybersecurity, and international regulatory collaboration.
+  image: /img/speakers/sissi-de-la-pena.jpg
+
+- title: Ms. Calista Redmond
+  oneliner: Vice President of Global AI Initiatives, NVIDIA
+  bio: >
+    Ms. Calista Redmond is the Vice President of Global AI Initiatives at NVIDIA, where she leads strategic collaborations to advance Sovereign AI and national AI programs worldwide.
+  image: /img/speakers/calista-redmond.jpg
+
+- title: Mr. Robb Tanner
+  oneliner: Deputy Assistant for ICT Services & Digital Trade, Office of the U.S. Trade Representative (USTR)
+  bio: >
+    Mr. Robb Tanner leads digital trade policy at the Office of the United States Trade Representative and serves as lead negotiator for digital trade in major international frameworks.
+  image: /img/speakers/robb-tanner.jpg
