@@ -1076,6 +1076,7 @@ section#contact {
 .agenda-card.registration {
   background: #e6eff7;   /* stronger blue tint */
   border: 1px solid #cdddea;
+  border-left: 4px solid #cdddea
 }
 .agenda-card.registration i {
   color: #355f7c;
@@ -1097,7 +1098,7 @@ section#contact {
 .agenda-card.break {
   background: #fdf8f2;
   border: 1px solid #f0e2d0;
-  border-left-color: #c7a17a;
+  border-left: 4px solid #c7a17a;
 }
 
 .venue-card {
