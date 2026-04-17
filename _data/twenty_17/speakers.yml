@@ -38,6 +38,7 @@
   bio: >
     Ms. Sissi De la Peña brings over 20 years of international experience across Latin America, Mexico, the United States, and the United Kingdom, with more than a decade specializing in government affairs and digital policy. She drives innovation at the intersection of AI governance, cybersecurity, and digital transformation, orchestrating public-private partnerships that address privacy, fraud and emerging technology risks across infrastructure, telecommunications, and digital regulatory frameworks. As a recognized expert in public policy, she has led regulatory negotiations on digital trade chapters in major trade agreements, including T-MEC and the EU-Mexico accord, and represented Mexico in international forums such as the OECD, G20, and the UN Internet Governance Forum. Her expertise in AI governance is evidenced by her leadership of Mexico's AI Regulatory Sandbox and her founding role in the National AI Alliance (ANIA). Currently, she serves as Director of Mexico's chapter of the Global Anti-Scam Alliance and Founder of The Dot Network. Recognized as a Women in AI Responsible Leader in 2025, she holds credentials including the UC Berkeley Tech Policy Fellowship and Google WomenCISO LATAM certification. 
   image: /css/2016_style/img/sissi-delapeña.jpg
+  image_class: img-top
 
 - title: Ms. Calista Redmond
   oneliner: Vice President of Global AI Initiatives, NVIDIA
