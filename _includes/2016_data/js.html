@@ -22,13 +22,22 @@ $(function() {
     }
   });
 
-  // SMOOTH SCROLL TO TOP
-  $('.back-to-top').on('click', function(event) {
-    event.preventDefault();
-    $('html, body').animate({
-      scrollTop: 0
-    }, 200);
-  });
+// FAST SCROLL TO TOP (no pause)
+$('.back-to-top').on('click', function(event) {
+  event.preventDefault();
+
+  // temporarily disable CSS smooth scroll
+  document.documentElement.style.scrollBehavior = 'auto';
+
+  $('html, body').stop(true).animate({
+    scrollTop: 0
+  }, 180);
+
+  // turn smooth back on after
+  setTimeout(function() {
+    document.documentElement.style.scrollBehavior = 'smooth';
+  }, 200);
+});
 
 });
 </script>
