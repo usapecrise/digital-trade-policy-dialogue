@@ -115,7 +115,7 @@ header {
     color: #fff;
     background:
         linear-gradient(rgba(0, 40, 60, 0.35), rgba(0, 40, 60, 0.35)),
-        url('{{ site.baseurl }}/css/2016_style/img/global digital infrastructure.png');
+        url('{{ site.baseurl }}/css/2016_style/img/global-digital-infrastructure.jpeg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
