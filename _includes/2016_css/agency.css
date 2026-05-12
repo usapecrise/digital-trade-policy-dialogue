@@ -1492,3 +1492,48 @@ html {
 
 }
 }
+
+.form-benefits {
+  display: flex;
+  gap: 28px;
+
+  justify-content: space-between;
+
+  margin-top: 30px;
+  padding-top: 28px;
+
+  border-top: 1px solid #dfe7ee;
+}
+
+.benefit-item {
+  flex: 1;
+
+  color: #4f6272;
+
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.benefit-item strong {
+  display: block;
+
+  margin-bottom: 6px;
+
+  color: #002b3f;
+
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.benefit-item span {
+  display: block;
+}
+
+@media (max-width: 700px) {
+
+  .form-benefits {
+    flex-direction: column;
+    gap: 18px;
+  }
+
+}
