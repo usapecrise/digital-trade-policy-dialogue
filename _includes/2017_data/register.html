@@ -3,7 +3,10 @@
 
     <!-- INTRO -->
     <div class="register-intro text-center">
-      <h2 class="section-heading">Register</h2>
+
+      <h2 class="section-heading">
+        Register
+      </h2>
 
       <p class="register-lead">
         Join leaders from across the U.S. technology sector to discuss opportunities in trusted
@@ -13,62 +16,33 @@
       <p class="register-note">
         Please complete the short registration form below. This should take less than one minute.
       </p>
+
     </div>
 
-    <!-- REGISTRATION CARD -->
-    <div class="registration-card">
+    <!-- JOTFORM EMBED -->
+    <div class="jotform-shell">
 
-      <form id="registrationForm" class="registration-form">
-
-        <div class="form-row">
-
-          <div class="form-group">
-            <label for="firstName">First Name *</label>
-            <input
-              id="firstName"
-              name="firstName"
-              type="text"
-              required>
-          </div>
-
-          <div class="form-group">
-            <label for="lastName">Last Name *</label>
-            <input
-              id="lastName"
-              name="lastName"
-              type="text"
-              required>
-          </div>
-
-        </div>
-
-        <div class="form-group">
-          <label for="organization">Organization/Affiliation *</label>
-          <input
-            id="organization"
-            name="organization"
-            type="text"
-            required>
-        </div>
-
-        <div class="form-group">
-          <label for="email">Email Address *</label>
-          <input
-            id="email"
-            name="email"
-            type="email"
-            required>
-        </div>
-
-        <button type="submit" class="btn btn-primary submit-btn">
-          Submit Registration
-        </button>
-
-        <p id="registrationMessage" class="registration-message"></p>
-
-      </form>
+      <iframe
+        id="JotFormIFrame-261306742187054"
+        title="Roundtable Registration Form"
+        allowtransparency="true"
+        allow="geolocation; microphone; camera; fullscreen; payment"
+        src="https://form.jotform.com/261306742187054"
+        frameborder="0"
+        scrolling="no"
+        class="jotform-iframe">
+      </iframe>
 
     </div>
 
   </div>
 </section>
+
+<script src="https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js"></script>
+
+<script>
+window.jotformEmbedHandler(
+  "iframe[id='JotFormIFrame-261306742187054']",
+  "https://form.jotform.com/"
+);
+</script>
