@@ -1435,7 +1435,69 @@ section#contact {
 html {
   scroll-behavior: smooth;
 }
-	
+
+.register-section {
+  background: #ffffff;
+  padding: 80px 0 90px;
+}
+
+.register-intro {
+  max-width: 760px;
+  margin: 0 auto 34px;
+}
+
+.register-intro .section-heading {
+  color: #002b3f;
+  margin-bottom: 20px;
+}
+
+.register-lead {
+  font-size: 20px;
+  line-height: 1.55;
+  color: #102033;
+  font-weight: 600;
+  margin: 0 auto 12px;
+}
+
+.register-note {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #5f6f7c;
+  margin: 0;
+}
+
+.jotform-shell {
+  max-width: 950px;
+  margin: 0 auto;
+  background: transparent;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 14px 38px rgba(0, 38, 86, 0.10);
+}
+
+.jotform-iframe {
+  display: block;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: 820px;
+  border: none;
+  background: transparent;
+}
+
+@media (max-width: 768px) {
+  .register-section {
+    padding: 60px 0 70px;
+  }
+
+  .register-lead {
+    font-size: 18px;
+  }
+
+  .jotform-shell {
+    border-radius: 14px;
+  }
+}
 
 	
 
