@@ -1438,103 +1438,58 @@ html {
 
 .register-section {
   background: #ffffff;
-  padding: 80px 0 90px;
+  padding: 70px 0 80px;
 }
 
 .register-intro {
   max-width: 900px;
-  margin: 0 auto 42px;
+  margin: 0 auto 34px;
 }
 
 .register-lead {
-  font-size: 22px;
-  line-height: 1.55;
+  font-size: 21px;
+  line-height: 1.5;
   color: #002b3f;
-  margin-bottom: 16px;
+  margin-bottom: 14px;
 }
 
 .register-note {
-  font-size: 17px;
+  font-size: 16px;
   line-height: 1.6;
   color: #5f6f7c;
 }
 
 .jotform-shell {
-  max-width: 760px;
+  max-width: 980px;
   margin: 0 auto;
-  border-radius: 18px;
+  border-radius: 20px;
   overflow: hidden;
   background: #ffffff;
-  box-shadow: 0 14px 38px rgba(0,38,86,0.10);
+  box-shadow: 0 18px 45px rgba(0,38,86,0.08);
 }
 
 .jotform-iframe {
   width: 100%;
   min-width: 100%;
-  height: 610px;
+  height: 860px;
   border: none;
   display: block;
 }
 
 @media (max-width: 768px) {
-
   .register-section {
-    padding: 60px 0 70px;
+    padding: 56px 0 66px;
   }
 
   .register-lead {
-    font-size: 19px;
+    font-size: 18px;
   }
 
   .jotform-shell {
     border-radius: 14px;
   }
 
-}
-}
-
-.form-benefits {
-  display: flex;
-  gap: 26px;
-
-  margin-top: 34px;
-  padding-top: 30px;
-
-  border-top: 1px solid #dfe7ee;
-}
-
-.benefit-item {
-  flex: 1;
-}
-
-.benefit-title {
-  font-size: 15px;
-  font-weight: 700;
-
-  color: #002b3f;
-
-  margin-bottom: 6px;
-}
-
-.benefit-text {
-  font-size: 14px;
-  line-height: 1.6;
-
-  color: #5d6c79;
-}
-
-@media (max-width: 700px) {
-
-  .form-benefits {
-    flex-direction: column;
-    gap: 18px;
+  .jotform-iframe {
+    height: 940px;
   }
-
-}
-
-  .form-benefits {
-    flex-direction: column;
-    gap: 18px;
-  }
-
 }
