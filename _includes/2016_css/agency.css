@@ -1438,67 +1438,49 @@ html {
 
 .register-section {
   background: #ffffff;
-  padding: 80px 0 90px;
+  padding: 70px 0 90px;
 }
 
 .register-intro {
-  max-width: 760px;
-  margin: 0 auto 34px;
+  max-width: 980px;
+  margin: 0 auto 32px;
 }
 
 .register-intro .section-heading {
   color: #002b3f;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 
 .register-lead {
-  font-size: 20px;
-  line-height: 1.55;
-  color: #102033;
-  font-weight: 600;
-  margin: 0 auto 12px;
+  max-width: 1100px;
+  margin: 0 auto 20px;
+  font-size: 21px;
+  line-height: 1.5;
+  color: #002b3f;
 }
 
 .register-note {
-  font-size: 16px;
-  line-height: 1.6;
-  color: #5f6f7c;
-  margin: 0;
+  max-width: 850px;
+  margin: 0 auto;
+  font-size: 19px;
+  line-height: 1.5;
+  color: #002b3f;
 }
 
-.jotform-shell {
-  max-width: 950px;
-  margin: 0 auto;
-  background: transparent;
+.jotform-card {
+  width: 100%;
+  max-width: 760px;
+  margin: 34px auto 0;
+  background: #ffffff;
   border-radius: 18px;
+  box-shadow: 0 14px 38px rgba(0, 38, 86, 0.12);
   overflow: hidden;
-  box-shadow: 0 14px 38px rgba(0, 38, 86, 0.10);
 }
 
 .jotform-iframe {
   display: block;
   width: 100%;
   min-width: 100%;
-  max-width: 100%;
-  height: 820px;
-  border: none;
-  background: transparent;
+  height: 760px;
+  border: 0;
 }
-
-@media (max-width: 768px) {
-  .register-section {
-    padding: 60px 0 70px;
-  }
-
-  .register-lead {
-    font-size: 18px;
-  }
-
-  .jotform-shell {
-    border-radius: 14px;
-  }
-}
-
-	
-
-
