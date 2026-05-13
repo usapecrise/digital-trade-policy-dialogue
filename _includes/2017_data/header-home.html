@@ -1,4 +1,4 @@
-<header>
+<header style="position:relative;">
 
   <!-- NAVBAR -->
   <nav class="navbar navbar-default navbar-default-color navbar-fixed-top">
@@ -57,26 +57,30 @@
     </div>
   </nav>
 
+  <!-- TOP LEFT EVENT LOGO -->
+  <div style="
+      position:absolute;
+      top:42px;
+      left:70px;
+      z-index:10;
+  ">
+
+    <img 
+      src="{{ "/css/2016_style/img/event-logo.png" | prepend: site.baseurl }}"
+      alt="CDP and Cadmus"
+      style="
+        width:500px;
+        max-width:42vw;
+      "
+    >
+
+  </div>
+
   <!-- HERO -->
   <div class="container">
 
     <div class="intro-text">
 
-      <!-- EVENT LOGO -->
-      <div style="width:100%; text-align:left;">
-
-  <img 
-    src="{{ "/css/2016_style/img/event-logo.png" | prepend: site.baseurl }}"
-    alt="CDP and Cadmus"
-    style="
-      width:420px;
-      max-width:90%;
-      margin-bottom:35px;
-    "
-  >
-
-</div>
-      
       <!-- MAIN TITLE -->
       <div class="intro-heading">
         TECHGATE Roundtable
