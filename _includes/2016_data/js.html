@@ -10,84 +10,114 @@
 <script src="{{ "../css/2016_style/js/cbpAnimatedHeader.js" | prepend: site.baseurl }}"></script>
 
 
+<!-- BACK TO TOP -->
 <script>
 $(function() {
 
   // SHOW / HIDE BUTTON
   $(window).scroll(function() {
+
     if ($(this).scrollTop() > 300) {
       $('.back-to-top').addClass('show');
     } else {
       $('.back-to-top').removeClass('show');
     }
+
   });
 
-  // FAST SCROLL TO TOP (no pause)
+  // FAST SCROLL TO TOP
   $('.back-to-top').on('click', function(event) {
+
     event.preventDefault();
 
-    document.documentElement.style.scrollBehavior = 'auto';
-
-    $('html, body').stop(true).animate({
+    $('html, body').stop().animate({
       scrollTop: 0
     }, 300);
 
-    setTimeout(function() {
-      document.documentElement.style.scrollBehavior = 'smooth';
-    }, 200);
   });
 
 });
 </script>
 
+
+<!-- NAVBAR SHRINK -->
 <script>
 $(window).scroll(function() {
-  var trigger = $('#intro').height();
+
+  var trigger = $('#intro').outerHeight() || 300;
 
   if ($(this).scrollTop() > trigger + 60) {
+
     $('.navbar-default').addClass('navbar-shrink');
+
   } else {
+
     $('.navbar-default').removeClass('navbar-shrink');
+
   }
+
 });
 </script>
 
+
+<!-- SPEAKER BIO TOGGLE -->
 <script>
 $(document).on('click', '.speaker-toggle', function(e) {
+
   e.stopPropagation();
 
   var $currentRow = $(this).closest('.speaker-row');
 
   // Close all others
   $('.speaker-row').not($currentRow).removeClass('active');
-  $('.speaker-row').not($currentRow).find('.speaker-toggle').text('View full bio →');
+  $('.speaker-row')
+    .not($currentRow)
+    .find('.speaker-toggle')
+    .text('View full bio →');
 
   // Toggle current
   $currentRow.toggleClass('active');
 
   // Update button text
   if ($currentRow.hasClass('active')) {
+
     $(this).text('Hide bio ↑');
+
   } else {
+
     $(this).text('View full bio →');
+
   }
+
 });
 </script>
 
+
+<!-- SMOOTH SCROLL -->
 <script>
 $('a.page-scroll').on('click', function(e) {
 
+    var targetId = $(this).attr('href');
+
+    // only process anchor links
+    if (targetId.charAt(0) !== '#') {
+        return;
+    }
+
+    var target = $(targetId);
+
+    // stop if section doesn't exist
+    if (!target.length) {
+        return;
+    }
+
     e.preventDefault();
 
-    var target = $(this.hash);
-
-    if (!target.length) return;
-
-    var navHeight = $('.navbar-default').outerHeight();
+    var navHeight = $('.navbar-default').outerHeight() || 70;
 
     $('html, body').stop().animate({
         scrollTop: target.offset().top - navHeight - 15
-    }, 900, 'easeInOutExpo');
+    }, 700);
 
 });
 </script>
