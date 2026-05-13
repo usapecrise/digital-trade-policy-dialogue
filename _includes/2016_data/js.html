@@ -1,11 +1,10 @@
-<!-- jQuery (FIXED - use CDN so it ALWAYS works) -->
+<!-- jQuery -->
 <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
 
-<!-- Bootstrap Core JavaScript -->
+<!-- Bootstrap -->
 <script src="{{ "../css/2016_style/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
 
-<!-- Plugin JavaScript -->
-<script src="{{ "../css/2016_style/js/jquery.easing.min.js" | prepend: site.baseurl }}"></script>
+<!-- Optional Navbar Animation Scripts -->
 <script src="{{ "../css/2016_style/js/classie.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "../css/2016_style/js/cbpAnimatedHeader.js" | prepend: site.baseurl }}"></script>
 
@@ -25,14 +24,15 @@ $(function() {
 
   });
 
-  // FAST SCROLL TO TOP
+  // SMOOTH SCROLL TO TOP
   $('.back-to-top').on('click', function(event) {
 
     event.preventDefault();
 
-    $('html, body').stop().animate({
-      scrollTop: 0
-    }, 300);
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
 
   });
 
@@ -70,6 +70,7 @@ $(document).on('click', '.speaker-toggle', function(e) {
 
   // Close all others
   $('.speaker-row').not($currentRow).removeClass('active');
+
   $('.speaker-row')
     .not($currentRow)
     .find('.speaker-toggle')
@@ -88,36 +89,6 @@ $(document).on('click', '.speaker-toggle', function(e) {
     $(this).text('View full bio →');
 
   }
-
-});
-</script>
-
-
-<!-- SMOOTH SCROLL -->
-<script>
-$('a.page-scroll').on('click', function(e) {
-
-    var targetId = $(this).attr('href');
-
-    // only process anchor links
-    if (targetId.charAt(0) !== '#') {
-        return;
-    }
-
-    var target = $(targetId);
-
-    // stop if section doesn't exist
-    if (!target.length) {
-        return;
-    }
-
-    e.preventDefault();
-
-    var navHeight = $('.navbar-default').outerHeight() || 70;
-
-    $('html, body').stop().animate({
-        scrollTop: target.offset().top - navHeight - 15
-    }, 700);
 
 });
 </script>
