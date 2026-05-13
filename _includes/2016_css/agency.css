@@ -183,10 +183,9 @@ header .intro-lead-in {
 }
 
 
-
 section {
     padding: 100px 0;
-	scroll-margin-top: 60px;
+    scroll-margin-top: 0;
 }
 
 aside.clients h2,
@@ -1272,12 +1271,19 @@ section#contact {
 }
 
 
-/* ===== SCROLLED STATE ===== */
+/* ===== NAVBAR ===== */
 
 @media (min-width: 768px) {
 
+    /* Default navbar */
+    .navbar-default {
+        padding: 16px 0;
+        transition: all 0.3s ease;
+    }
+
+    /* Scrolled navbar */
     .navbar-default.navbar-shrink {
-        padding: 10px 0;
+        padding: 12px 0;
         background-color: #ffffff;
         box-shadow: 0 4px 12px rgba(0,0,0,0.08);
         backdrop-filter: blur(8px);
@@ -1304,6 +1310,12 @@ section#contact {
         border-bottom: 2px solid #355f7c;
         color: #355f7c;
     }
+}
+
+/* ===== SECTION SPACING ===== */
+
+section {
+    padding: 75px 0;
 }
 
 .navbar-collapse {
