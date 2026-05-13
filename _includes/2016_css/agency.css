@@ -1448,6 +1448,10 @@ html {
   scroll-behavior: smooth;
 }
 
+section {
+  scroll-margin-top: 90px;
+}
+
 .register-section {
   background: #eef4f8;
   padding: 70px 0 90px;
