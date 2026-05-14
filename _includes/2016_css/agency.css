@@ -1467,8 +1467,8 @@ section {
 
 .register-grid {
   display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 36px;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 42px;
   padding: 42px;
   align-items: start;
 }
@@ -1519,9 +1519,10 @@ section {
 }
 
 .register-form-panel {
-  max-width: 420px;
   width: 100%;
+  max-width: 560px;   /* increased */
   margin-left: auto;
+
   border-radius: 18px;
   overflow: hidden;
   background: #ffffff;
