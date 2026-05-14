@@ -1469,7 +1469,7 @@ section {
   display: grid;
   grid-template-columns: 1.4fr 1fr;
   gap: 42px;
-  padding: 42px;
+  padding: 32px;
   align-items: start;
 }
 
