@@ -1,61 +1,136 @@
-<header>
+<header style="position:relative;">
+
   <!-- NAVBAR -->
   <nav class="navbar navbar-default navbar-default-color navbar-fixed-top">
     <div class="container">
 
       <!-- Brand and toggle -->
       <div class="navbar-header page-scroll">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+
+        <button type="button"
+                class="navbar-toggle"
+                data-toggle="collapse"
+                data-target="#bs-example-navbar-collapse-1">
+
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
+
         </button>
 
         <!-- invisible spacer -->
-        <a class="navbar-brand page-scroll" href="/" style="visibility:hidden; width:150px;">
+        <a class="navbar-brand page-scroll"
+           href="/"
+           style="visibility:hidden; width:150px;">
           placeholder
         </a>
+
       </div>
 
       <!-- Nav links -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <div class="collapse navbar-collapse"
+           id="bs-example-navbar-collapse-1">
+
         <ul class="nav navbar-nav navbar-right">
-          <li><a class="page-scroll" href="#intro">About</a></li>
-          <li><a class="page-scroll" href="#agenda">Agenda</a></li>
-          <li><a class="page-scroll" href="#speakers">Speakers</a></li>
-          <li><a class="page-scroll" href="#location">Location</a></li>
-          <li><a class="page-scroll" href="#contact">Contact</a></li>
+
+          <li>
+            <a class="page-scroll" href="#intro">About</a>
+          </li>
+
+          <li>
+            <a class="page-scroll" href="#register">Register</a>
+          </li>
+
+          <li>
+            <a class="page-scroll" href="#agenda">Agenda</a>
+          </li>
+
+          <li>
+            <a class="page-scroll" href="#location">Location</a>
+          </li>
+
+          <li>
+            <a class="page-scroll" href="#contact">Contact</a>
+          </li>
+
         </ul>
+
       </div>
 
     </div>
   </nav>
 
+  <!-- TOP LEFT EVENT LOGO -->
+  <div style="
+      position:absolute;
+      top:42px;
+      left:70px;
+      z-index:10;
+  ">
+
+    <img 
+      src="{{ "/css/2016_style/img/event-logo.png" | prepend: site.baseurl }}"
+      alt="CDP and Cadmus"
+      style="
+        width:500px;
+        max-width:42vw;
+      "
+    >
+
+  </div>
+
   <!-- HERO -->
   <div class="container">
+
     <div class="intro-text">
 
+      <!-- MAIN TITLE -->
       <div class="intro-heading">
-        APEC Digital Trade Policy Dialogue
+        TECHGATE Roundtable
       </div>
 
-      <div class="intro-lead-in" style="max-width:700px; margin:20px auto;">
-        Advancing AI-Driven Innovation in Digital Trade Across APEC Economies
+      <!-- SUBTITLE -->
+      <div class="intro-lead-in"
+           style="
+             max-width:700px;
+             margin:20px auto;
+           ">
+
+        Expanding Commercial Opportunities for U.S. Technology in Target Markets
+
       </div>
 
-      <div style="margin-bottom:25px; color:#d6e1ec;">
-        April 22, 2026 • Mexico City, Mexico
+      <!-- DATE / LOCATION -->
+      <div style="
+            margin-bottom:30px;
+            color:#d6e1ec;
+            font-size:18px;
+            letter-spacing:0.3px;
+      ">
+
+        June 17, 2026 • Arlington, Virginia
+
       </div>
 
-      <a href="https://tinyurl.com/2026DTPD" target="_blank" class="btn btn-xl btn-primary">
+      <!-- BUTTONS -->
+      <a href="#register"
+         class="page-scroll btn btn-secondary">
+
         Register Now →
+
       </a>
 
-      <a href="#intro" class="page-scroll btn btn-secondary" style="margin-left:10px;">
+      <a href="#intro"
+         class="page-scroll btn btn-secondary"
+         style="margin-left:10px;">
+
         View Details →
+
       </a>
 
     </div>
+
   </div>
+
 </header>
